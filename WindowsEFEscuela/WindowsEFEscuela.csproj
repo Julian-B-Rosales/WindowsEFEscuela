@@ -71,8 +71,18 @@
     <Compile Include="Migrations\202211072056094_ModificarDB.designer.cs">
       <DependentUpon>202211072056094_ModificarDB.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202211072109072_AgregarYModificarDBs.cs" />
+    <Compile Include="Migrations\202211072109072_AgregarYModificarDBs.designer.cs">
+      <DependentUpon>202211072109072_AgregarYModificarDBs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202211072111014_ModificarTablas.cs" />
+    <Compile Include="Migrations\202211072111014_ModificarTablas.designer.cs">
+      <DependentUpon>202211072111014_ModificarTablas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Alumno.cs" />
+    <Compile Include="Models\Aula.cs" />
+    <Compile Include="Models\Materia.cs" />
     <Compile Include="Models\Profesor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -81,6 +91,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202211072056094_ModificarDB.resx">
       <DependentUpon>202211072056094_ModificarDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202211072109072_AgregarYModificarDBs.resx">
+      <DependentUpon>202211072109072_AgregarYModificarDBs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202211072111014_ModificarTablas.resx">
+      <DependentUpon>202211072111014_ModificarTablas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
